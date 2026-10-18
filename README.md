@@ -149,6 +149,31 @@ Valeurs attendues :
 }
 ```
 
+### 🔹 Preuves (captures d'écran)
+
+Sur la même application, la **vue Équipe** et la **liste des matchs** se contredisent sur le lieu de chaque rencontre :
+
+| 🔵 Match | Vue Équipe (joueurs) | Liste des matchs |
+|----------|----------------------|------------------|
+| Arsenal – Brighton | Raya et White : `BHA (A)`, soit Arsenal à l'extérieur | Arsenal affiché à domicile |
+| Man City – Sunderland | Haaland et Gvardiol : `SUN (H)`, soit Man City à domicile | Sunderland affiché à domicile |
+| Man Utd – Fulham | Fernandes : `FUL (A)`, soit Man Utd à l'extérieur | Man Utd affiché à domicile |
+| Liverpool – Bournemouth | Gakpo : `BOU (A)`, soit Liverpool à l'extérieur | Liverpool affiché à domicile |
+| Newcastle – Hull | Wissa : `HUL (H)`, soit Newcastle à domicile | Hull affiché à domicile |
+| Ipswich – Everton | Diop : `EVE (A)`, soit Ipswich à l'extérieur | Ipswich affiché à domicile |
+
+La contradiction touche chaque match visible, ce qui confirme une inversion systémique et non un cas isolé.
+
+<div align="center">
+
+<img src="docs/screenshots/bug2-01-vue-equipe-domicile-exterieur.jpg" alt="Vue Équipe : indicateurs (H) et (A) par joueur" width="300">
+<img src="docs/screenshots/bug2-02-liste-matchs-journee-1.jpg" alt="Liste des matchs, première partie" width="300">
+<img src="docs/screenshots/bug2-03-liste-matchs-journee-2.jpg" alt="Liste des matchs, seconde partie" width="300">
+
+<sub>🔷 De gauche à droite : vue Équipe, liste des matchs (partie 1), liste des matchs (partie 2)</sub>
+
+</div>
+
 **Classification :** Sévérité **Moyenne** / Priorité **Haute**. Les données sportives sont corrompues de manière systémique et tous les utilisateurs sont impactés.
 
 ---
