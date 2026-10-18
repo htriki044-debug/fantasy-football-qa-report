@@ -9,6 +9,11 @@
 ![DevTools](https://img.shields.io/badge/Outils-Chrome%20DevTools-1f6feb?style=for-the-badge&logo=googlechrome&logoColor=white)
 ![Licence](https://img.shields.io/badge/Licence-MIT-1f6feb?style=for-the-badge)
 
+![Dernier commit](https://img.shields.io/github/last-commit/htriki044-debug/fantasy-football-qa-report?style=for-the-badge&color=1f6feb&label=Dernier%20commit)
+![Taille du dépôt](https://img.shields.io/github/repo-size/htriki044-debug/fantasy-football-qa-report?style=for-the-badge&color=1f6feb&label=Taille)
+![Statut](https://img.shields.io/badge/Statut-Termin%C3%A9-1f6feb?style=for-the-badge)
+![Langue](https://img.shields.io/badge/Langue-Fran%C3%A7ais-1f6feb?style=for-the-badge)
+
 </div>
 
 ---
@@ -50,7 +55,9 @@ Les investigations s'appuient sur les **DevTools du navigateur** (onglets Consol
 
 ## 🔷 Bug 1 : Gel de l'UI lors de la navigation entre les journées
 
-> 🔵 **Couche :** Front-end · **Sévérité :** Haute · **Priorité :** Basse
+![Couche](https://img.shields.io/badge/Couche-Front--end-1f6feb?style=flat-square)
+![Sévérité](https://img.shields.io/badge/S%C3%A9v%C3%A9rit%C3%A9-Haute-1f6feb?style=flat-square)
+![Priorité](https://img.shields.io/badge/Priorit%C3%A9-Basse-1f6feb?style=flat-square)
 
 ### 🔹 Présentation
 
@@ -102,7 +109,9 @@ async function handleGameweekNavigation(nextEventId) {
 
 ## 🔷 Bug 2 : Inversion domicile / extérieur des matchs
 
-> 🔵 **Couche :** Back-end (API / base de données) · **Sévérité :** Moyenne · **Priorité :** Haute
+![Couche](https://img.shields.io/badge/Couche-Back--end-1f6feb?style=flat-square)
+![Sévérité](https://img.shields.io/badge/S%C3%A9v%C3%A9rit%C3%A9-Moyenne-1f6feb?style=flat-square)
+![Priorité](https://img.shields.io/badge/Priorit%C3%A9-Haute-1f6feb?style=flat-square)
 
 ### 🔹 Présentation
 
